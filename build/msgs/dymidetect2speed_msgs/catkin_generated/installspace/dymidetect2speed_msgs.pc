@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/install
+
+Name: dymidetect2speed_msgs
+Description: Description of dymidetect2speed_msgs
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs sensor_msgs std_msgs

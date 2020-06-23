@@ -1,0 +1,6 @@
+string laser_scan_topic
+string multi_echo_laser_scan_topic
+string point_cloud2_topic
+string imu_topic
+string odometry_topic
+string dynamicobject_topic

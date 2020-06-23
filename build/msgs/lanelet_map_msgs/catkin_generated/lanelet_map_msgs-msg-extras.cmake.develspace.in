@@ -1,0 +1,2 @@
+set(lanelet_map_msgs_MESSAGE_FILES "/home/lizhiwei/Desktop/udp_comm/src/msgs/lanelet_map_msgs/msg/Node.msg;/home/lizhiwei/Desktop/udp_comm/src/msgs/lanelet_map_msgs/msg/Way.msg;/home/lizhiwei/Desktop/udp_comm/src/msgs/lanelet_map_msgs/msg/Regulatory.msg;/home/lizhiwei/Desktop/udp_comm/src/msgs/lanelet_map_msgs/msg/Lanelet.msg;/home/lizhiwei/Desktop/udp_comm/src/msgs/lanelet_map_msgs/msg/LaneletMap.msg")
+set(lanelet_map_msgs_SERVICE_FILES "")

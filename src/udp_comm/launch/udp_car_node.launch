@@ -1,0 +1,20 @@
+<launch>
+    <node respawn="true" pkg="joy" type="joy_node" name="joy_node0" >
+    <param name="dev" type="string" value="/dev/input/js0" />
+    <param name="deadzone" value="0.1" />
+    <param name="autorepeat_rate" value="20" />
+    </node>
+
+    <param name="axis_steer" value="0" type="int"/>
+    <param name="axis_brake" value="3" type="int"/>
+    <param name="axis_throttle" value="2" type="int"/>
+    <param name="steer_gain" value="15750" type="double"/>
+    <param name="driver_control_position" value="5" type="int"/>
+    <param name="driver_control_cancel_position" value="4" type="int"/>
+    <param name="driver_position" value="13" type="int"/>
+    <param name="control_position" value="15" type="int"/>
+    <param name="follow_position" value="17" type="int"/>
+    <param name="back_gear_position" value="18" type="int"/>
+
+    <node pkg="udp_car" type="udp_car" name="udp_car" output="screen"/>
+ </launch>

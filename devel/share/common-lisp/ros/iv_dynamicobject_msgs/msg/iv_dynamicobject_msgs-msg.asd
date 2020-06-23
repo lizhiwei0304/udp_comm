@@ -1,0 +1,28 @@
+
+(cl:in-package :asdf)
+
+(defsystem "iv_dynamicobject_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ECUData" :depends-on ("_package_ECUData"))
+    (:file "_package_ECUData" :depends-on ("_package"))
+    (:file "History_traj" :depends-on ("_package_History_traj"))
+    (:file "_package_History_traj" :depends-on ("_package"))
+    (:file "Points" :depends-on ("_package_Points"))
+    (:file "_package_Points" :depends-on ("_package"))
+    (:file "Predict_traj" :depends-on ("_package_Predict_traj"))
+    (:file "_package_Predict_traj" :depends-on ("_package"))
+    (:file "RadarData" :depends-on ("_package_RadarData"))
+    (:file "_package_RadarData" :depends-on ("_package"))
+    (:file "RadarPoint" :depends-on ("_package_RadarPoint"))
+    (:file "_package_RadarPoint" :depends-on ("_package"))
+    (:file "Rectangle" :depends-on ("_package_Rectangle"))
+    (:file "_package_Rectangle" :depends-on ("_package"))
+    (:file "TargetCar" :depends-on ("_package_TargetCar"))
+    (:file "_package_TargetCar" :depends-on ("_package"))
+    (:file "moving_target" :depends-on ("_package_moving_target"))
+    (:file "_package_moving_target" :depends-on ("_package"))
+    (:file "moving_target_send" :depends-on ("_package_moving_target_send"))
+    (:file "_package_moving_target_send" :depends-on ("_package"))
+  ))

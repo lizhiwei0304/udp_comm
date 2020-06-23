@@ -1,0 +1,33 @@
+发布轨迹消息定义如下：
+1 话题名称
+	/trajectory
+2 消息定义结构如下：
+|- Header header
+|- Traj_Node[] points （轨迹点）
+  |- bool forward （表示前进或后退，1为前进，0为后退）
+  |- int32 id （路点的id号）
+  |- geometry_msgs/Point position（具体的路点坐标）
+    |- float32 x （轨迹点的x坐标，米）
+    |- float32 y （轨迹点的y坐标，米）
+    |- float32 z （轨迹点的海拔，米）
+  |- geometry_msgs/Quaternion orientation（航向，暂未用）
+  |- float64 curvature （曲率）
+  |- geometry_msgs/Twist  velocity（现阶段只用linear.x, linear.y 为加速度）
+|- float64 issued_acc  (下发加速度)
+|- int32 delay_index  (下发加速度(linear.y)在加速度vector中的index)
+
+
+文件定义格式：
+Trajectory.msg
+	Header header
+	Traj_Node[] points
+	float64 issued_acc
+	int32 delay_index
+Traj_Node.msg
+	bool forward
+	int32 id
+	geometry_msgs/Point position
+	geometry_msgs/Quaternion orientation
+	float64 curvature
+	geometry_msgs/Twist velocity
+

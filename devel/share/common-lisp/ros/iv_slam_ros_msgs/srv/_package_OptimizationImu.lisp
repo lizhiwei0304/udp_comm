@@ -1,0 +1,18 @@
+(cl:in-package iv_slam_ros_msgs-srv)
+(cl:export '(TRAJECTORY_ID-VAL
+          TRAJECTORY_ID
+          TIME-VAL
+          TIME
+          LINEAR_ACCELERATION_X-VAL
+          LINEAR_ACCELERATION_X
+          LINEAR_ACCELERATION_Y-VAL
+          LINEAR_ACCELERATION_Y
+          LINEAR_ACCELERATION_Z-VAL
+          LINEAR_ACCELERATION_Z
+          ANGULAR_VELOCITY_X-VAL
+          ANGULAR_VELOCITY_X
+          ANGULAR_VELOCITY_Y-VAL
+          ANGULAR_VELOCITY_Y
+          ANGULAR_VELOCITY_Z-VAL
+          ANGULAR_VELOCITY_Z
+))

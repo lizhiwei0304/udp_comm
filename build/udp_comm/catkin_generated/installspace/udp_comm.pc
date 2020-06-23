@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/install
+
+Name: udp_comm
+Description: Description of udp_comm
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs nav_msgs geometry_msgs sensor_driver_msgs sensor_msgs plan2control_msgs

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>speed_ctrl_msgs</name>
+  <version>0.0.0</version>
+  <description>The speed_ctrl_msgs package</description>
+
+  <maintainer email="shawn-u-16@todo.todo">shawn-u-16</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

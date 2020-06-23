@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+
+<package format="2">
+  <name>extractroad_msg</name>
+  <version>0.2.0</version>
+  <description>
+    ROS messages for the iv_slam_ros package.
+  </description>
+  <maintainer email="ZackLiu3714@gmail.com">
+    The ivrc Authors
+  </maintainer>
+  <license>Apache 2.0</license>
+
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>message_generation</depend>
+
+  <exec_depend>message_runtime</exec_depend>
+</package>

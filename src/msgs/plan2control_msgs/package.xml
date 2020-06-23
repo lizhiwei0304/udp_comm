@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>plan2control_msgs</name>
+    <version>0.0.1</version>
+	<description>plan2control_msgs</description>
+
+    <author email="156411267@qq.com">Yang Lei</author>
+    <maintainer email="156411267@qq.com">Yang Lei</maintainer>
+    <license>BSD</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+	<depend>roscpp</depend>
+	<depend>std_msgs</depend>
+        <depend>geometry_msgs</depend>
+	<depend>message_generation</depend>
+	<depend>message_runtime</depend>
+</package>

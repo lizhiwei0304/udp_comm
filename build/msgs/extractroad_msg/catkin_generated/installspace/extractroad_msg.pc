@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/install
+
+Name: extractroad_msg
+Description: Description of extractroad_msg
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs sensor_msgs nav_msgs

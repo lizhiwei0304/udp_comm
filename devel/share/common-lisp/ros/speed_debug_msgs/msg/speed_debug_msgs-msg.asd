@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "speed_debug_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "cur_steer" :depends-on ("_package_cur_steer"))
+    (:file "_package_cur_steer" :depends-on ("_package"))
+    (:file "curv" :depends-on ("_package_curv"))
+    (:file "_package_curv" :depends-on ("_package"))
+    (:file "speed_debug" :depends-on ("_package_speed_debug"))
+    (:file "_package_speed_debug" :depends-on ("_package"))
+    (:file "speed_issue" :depends-on ("_package_speed_issue"))
+    (:file "_package_speed_issue" :depends-on ("_package"))
+    (:file "speed_time" :depends-on ("_package_speed_time"))
+    (:file "_package_speed_time" :depends-on ("_package"))
+    (:file "super_point" :depends-on ("_package_super_point"))
+    (:file "_package_super_point" :depends-on ("_package"))
+    (:file "v" :depends-on ("_package_v"))
+    (:file "_package_v" :depends-on ("_package"))
+  ))

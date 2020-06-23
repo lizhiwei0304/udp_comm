@@ -1,0 +1,2 @@
+msgs/anm_msgs:msgs/control_msgs:msgs/dbw_mkz_msgs:msgs/delphi_msgs:msgs/dymidetect2speed_msgs:msgs/extractroad_msg:msgs/geographic_msgs:msgs/iv_dynamicobject_msgs:msgs/iv_slam_ros_msgs:msgs/lanelet_map_msgs:msgs/plan2control_msgs:msgs/sensor_driver_msgs:msgs/speed_ctrl_msgs:msgs/speed_debug_msgs:msgs/stiffmsgs:msgs/uuid_msgs:msgs/xsh_msgs:udp_comm
+-DCATKIN_DEVEL_PREFIX=/home/lizhiwei/Desktop/udp_comm/devel -DCMAKE_INSTALL_PREFIX=/home/lizhiwei/Desktop/udp_comm/install -G Unix Makefiles

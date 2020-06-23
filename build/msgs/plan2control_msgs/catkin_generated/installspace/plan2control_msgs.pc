@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/install
+
+Name: plan2control_msgs
+Description: Description of plan2control_msgs
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime std_msgs geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/devel
+
+Name: sensor_driver_msgs
+Description: Description of sensor_driver_msgs
+Version: 0.2.0
+Cflags: -I/home/lizhiwei/Desktop/udp_comm/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs sensor_msgs std_msgs

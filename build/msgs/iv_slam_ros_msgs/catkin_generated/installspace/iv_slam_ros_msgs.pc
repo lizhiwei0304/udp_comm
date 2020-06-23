@@ -1,0 +1,8 @@
+prefix=/home/lizhiwei/Desktop/udp_comm/install
+
+Name: iv_slam_ros_msgs
+Description: Description of iv_slam_ros_msgs
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs sensor_msgs nav_msgs
